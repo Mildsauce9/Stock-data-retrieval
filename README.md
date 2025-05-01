@@ -1,6 +1,6 @@
 # Retrieval Based Ticker Information Bot
 ### This project is a self-learning project, almost all the process done in the project is very basic and beginner level. 
-
+### Just run app.py and the front-end interface should open in your default browser.
 ### The goal of this project is to have built a RAG based system by the end. In order to achieve this I am constantly learning and trying new things. 
 
 ## Step 1 : Collection of data
