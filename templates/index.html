@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Professional Stock Analyzer</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    input[type=text] { width: 400px; padding: 0.5rem; }
+    button { padding: 0.5rem 1rem; }
+    .answer { margin-top: 2rem; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Professional Stock Analyzer</h1>
+  <form method="post">
+    <input type="text" name="query" placeholder="E.g. Why did Apple fall last week?" required />
+    <button type="submit">Analyze</button>
+  </form>
+
+  {% if answer %}
+    <div class="answer">
+      <h2>Analysis</h2>
+      <p>{{ answer }}</p>
+    </div>
+  {% endif %}
+</body>
+</html>
